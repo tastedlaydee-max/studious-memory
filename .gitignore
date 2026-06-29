@@ -1,0 +1,59 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Build directories
+dist/
+build/
+.next/
+out/
+
+# React & Client specific
+client/node_modules/
+client/build/
+client/.env.local
+client/.env.*.local
+
+# Backend/Server specific
+server/node_modules/
+server/.env.local
+server/dist/
+
+# Testing
+coverage/
+.nyc_output/
+
+# Logs
+logs/
+*.log
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+
+# Misc
+*.pem
+*.key
+config.local.js

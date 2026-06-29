@@ -1,0 +1,28 @@
+{
+  "name": "studious-memory",
+  "version": "1.0.0",
+  "description": "A modern full-stack web application",
+  "main": "server/server.js",
+  "scripts": {
+    "dev": "concurrently \"cd server && npm start\" \"cd client && npm start\"",
+    "start": "node server/server.js",
+    "lint": "eslint . --ext .js,.jsx",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cd client && npm run build"
+  },
+  "keywords": [
+    "react",
+    "nodejs",
+    "express",
+    "mongodb",
+    "fullstack"
+  ],
+  "author": "tastedlaydee-max",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "eslint": "^8.48.0",
+    "prettier": "^3.0.0"
+  }
+}

@@ -1,0 +1,115 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: #333;
+}
+
+.app-header {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.app-header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.app-header p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.app-main {
+  flex: 1;
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+section {
+  background: white;
+  border-radius: 8px;
+  padding: 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #667eea;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.status-card {
+  background: #f0f9ff;
+  border-left: 4px solid #10b981;
+  padding: 1.5rem;
+  border-radius: 4px;
+}
+
+.status-ok {
+  color: #10b981;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.status-error {
+  color: #ef4444;
+  font-weight: bold;
+}
+
+.status-card pre {
+  background: #1f2937;
+  color: #10b981;
+  padding: 1rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 0.9rem;
+}
+
+.getting-started ol,
+.next-steps ul {
+  padding-left: 2rem;
+  line-height: 1.8;
+}
+
+.getting-started li,
+.next-steps li {
+  margin-bottom: 0.8rem;
+}
+
+code {
+  background: #f3f4f6;
+  padding: 0.2rem 0.4rem;
+  border-radius: 3px;
+  font-family: 'Courier New', monospace;
+  color: #d946ef;
+}
+
+.app-footer {
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  text-align: center;
+  padding: 1.5rem;
+  margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  .app-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .app-main {
+    padding: 1rem;
+  }
+
+  section {
+    padding: 1.5rem;
+  }
+}
